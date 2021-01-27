@@ -19,12 +19,14 @@ Jaringan seluler menawarkan sejumlah fitur yang diinginkan:
 ## GSM ( Global System for Mobile Communication )
   **GSM** merupakan sebuah teknologi komunikasi selular yang bersifat digital.Teknologi GSM banyak diterapkan pada mobile communication, khususnya handphone. Teknologi ini memanfaatkan gelombang mikro dan pengiriman sinyal yang dibagi berdasarkan waktu, sehingga sinyal informasi yang dikirim akan sampai pada tujuan. GSM dijadikan standar global untuk komunikasi selular sekaligus sebagai teknologi selular yang paling banyak digunakan orang di seluruh dunia.
   Di Eropa, awalnya GSM di desain beroperasi pada frekuensi 900 Mhz. Dengan frekuensi uplinks-nya menggunakan frekuensi 890–915 MHz, sedangkan frekuensi downlinksnya menggunakan frekuensi 935–960 MHz. Bandwith yang digunakan adalah 25 Mhz (915–80 = 960–35 = 25 Mhz) dan lebar kanal sebesar 200 Khz. Dari keduanya, maka didapatkan 125 kanal, dimana 124 kanal digunakan untuk suara dan satu kanal untuk sinyal.
+
 Secara umum, network element dalam arsitektur jaringan GSM dapat dibagi menjadi:
 - Mobile Station (MS)
 - Base Station Sub-system (BSS)
 - Network Sub-system (NSS),
 - Operation and Support System (OSS)
 Secara bersama-sama, keseluruhaan network element diatas akan membentuk sebuah PLMN (Public Land Mobile Network)
+
 ### Kelebihan dan Kekurangan GSM
 Kelebihan dari GSM (Global System for Mobile)
 1. Penyebaran jaringan yang luas bahkan sampai ke daerah pelosok
@@ -40,6 +42,7 @@ Kekurangan dari GSM (Global System for Mobile)
 ## CDMA (Code Division Multiple Access)
  **CDMA** adalah sebuah bentuk pemultipleksan (bukan sebuah skema pemodulasian) dan sebuah metode akses secara bersama yang membagi kanal tidak berdasarkan waktu (seperti pada TDMA) atau frekuensi (seperti pada FDMA), tetapi dengan cara mengkodekan data dengan sebuah kode khusus yang diasosiasikan dengan tiap kanal yang ada dan menggunakan sifat-sifat interferensi konstruktif dari kode-kode khusus itu untuk melakukan pemultipleksan.
  Teknologi CDMA pada awalnya dipergunakan dalam komunikasi radio militer Amerika Serikat (AS), mulai tahun 1990 patennya diberikan kepada Qualcomm, Inc. dan dijadikan sebagai standar seluler digital di AS sejak tahun 1993. Oleh karena itu tidak heran jika teknologi ini sangat aman karena tidak dapat digandakan (dikloning). Sehingga teknologi ini sangat cocok bagi kegunaan layanan telepon banking, seperti transfer, cek saldo, dll.
+
 Sistem komunikasi CDMA ini mempunya spesifikasi sebagai berikut :
 - Bandwidth : 1.25 MHz
 - Frek Uplink : 869 – 894 MHz atau 1930 – 1990 MHz
@@ -80,7 +83,8 @@ Satelit memiliki beberapa jenis yaitu :
 - Satelit cuaca adalah satelit yang diguanakan untuk mengamati cuaca dan iklim Bumi.
 - Satelit miniatur adalah satelit yang ringan dan kecil. Klasifikasi baru dibuat untuk mengkategorikan satelit-satelit ini: satelit mini (500–200 kg), satelit mikro (di bawah 200 kg), satelit nano (di bawah 10 kg).
 
-  Satelit juga memiliki kelebihan dan kekurangan. yaitu :
+Satelit juga memiliki kelebihan dan kekurangan. yaitu :
+
 **Kelebihan Satelit**
 - Memiliki cakupan yang luas
 - bandwidthnya cukup besar
@@ -88,6 +92,7 @@ Satelit memiliki beberapa jenis yaitu :
 - komunikasi dapat dilakukan secara baik secara broadcasting maupun multicasting
 - pemasangan relative cepat
 - baik untuk negara yang memiliki infrastruktur komukasi terbatas.
+
 **Kekurangan Satelit**
 - Untuk melewatkan sinyal TCP/IP, besarnya throughput akan terbatasi karena delay propagasi geostasioner. Kini berbagai teknik protokol link sudah dikembangkan sehingga dapat mengatasi problem tersebut. Diantaranya penggunaan Forward Error Correction yang menjamin kecilnya kemungkinan pengiriman ulang
 - data yang dikirim mudah untuk diambil (hack). karena sifat koneksinya yang publik dan terbuka
@@ -101,7 +106,8 @@ Satelit memiliki beberapa jenis yaitu :
 ## GPS ( Global Positioning System )
 **GPS** adalah sistem yang memungkinkan kita menentukan lokasi secara akurat menggunakan satelit, yang diciptakan oleh Amerika Serikat. Rusia (GLONASS) dan China (BeiDou) pun memiliki solusi penentu lokasi yang serupa.
 “GPS” di Smartphone itu Bukan Peta
-GPS adalah aplikasi navigasi yang memanfaatkan sistem GNSS (Global Navigation Satellite System). Sistem navigasi di dalam smartphone harus mengetahui satelit mana yang relevan untuk perhitungan posisinya
+GPS adalah aplikasi navigasi yang memanfaatkan sistem GNSS (Global Navigation Satellite System). Sistem navigasi di dalam smartphone harus mengetahui satelit mana yang relevan untuk perhitungan posisinya.
+
 Kemampuan GPS : - GPS dapat memberikan informasi tentang posisi, kecepatan, dan waktu secara cepat, akurat, murah, dimana saja di bumi ini pada setiap saat tanpa tergantung
                   cuaca.
                 - GPS adalah satu-satunya sistem navigasi ataupun sistem penentuan posisi, selama beberapa abad ini, yang mempunyai karakteristik prima seperti tersebut.
@@ -130,10 +136,31 @@ WiIMAX menggunakan akses wireless broadband hingga 50 km untuk stasiun tetap, da
 
 
 ## ANTENA
-**Antena** adalah konduktor elektrik yang berfungsi untuk :
-Transmisi (Transmission) : Meradiasikan energi elektromagnetik ke ruang bebas/space
-Penerimaan (Reception) : Mengumpulkan/menerima energi elektromagnetik dari ruang bebas/space
-Pada komunikasi dua arah, antena yang sama dapat digunakan untuk transmission dan reception
+**Antena** adalah alat untuk mengirim dan menerima gelombang elektromagnetik, bergantung kepada pemakaian dan penggunaan frekuensinya, antena bisa berwujud berbagai bentuk, mulai dari seutas kabel, dipole, ataupun yagi, dsb. Antena adalah alat pasif tanpa catu daya(power), yang tidak bisa meningkatkan kekuatan sinyal radio, dia seperti reflektor pada lampu senter, membantu mengkonsentrasi dan memfokuskan sinyal.
+
+**Fungsi Antena**
+ Antena berfungsi untuk mengubah sinyal listrik menjadi sinyal elektromagnetik, lalu meradiasikannya (Pelepasan energy elektromagnetik ke udara / ruang bebas). Dan sebaliknya, antena juga dapat berfungsi untuk menerima sinyal elektromagnetik (Penerima energy elektromagnetik dari ruang bebas ) dan mengubahnya menjadi sinyal listrik. Pada radar atau sistem komunikasi satelit, sering dijumpai sebuah antena yang melakukan kedua fungsi (peradiasi dan penerima) sekaligus. Namun, pada sebuah teleskop radio, antena hanya menjalankan fungsi penerima saja.
+
+### Karakter Antena
+Ada beberapa karakter penting antena yang perlu dipertimbangkan dalam memilih jenis antena untuk suatu aplikasi , yaitu pola radiasi, directivity, gain, dan polarisasi.
+1. Pola Radiasi
+ Pola radiasi antena adalah plot 3-dimensi distribusi sinyal yang dipancarkan oleh sebuah antena, atau plot 3-dimensi tingkat penerimaan sinyal yang diterima oleh sebuah antena. Pola radiasi antena dibentuk oleh dua buah pola radiasi berdasar bidang irisan, yaitu pola radiasi pada bidang irisan arah elevasi (pola elevasi) dan pola radiasi pada bidang irisan arah azimuth (pola azimuth).
+ Kedua pola di atas akan membentuk pola 3-dimensi. Pola radiasi 3-dimensi inilah yang umum disebut sebagai pola radiasi antena dipol. Sebuah antena yang meradiasikan sinyalnya sama besar ke segala arah disebut sebagai antena isotropis. Antena seperti ini akan memiliki pola radiasi berbentuk bola Namun, jika sebuah antena memiliki arah tertentu, di mana pada arah tersebut distribusi sinyalnya lebih besar dibandingkan pada arah lain, maka antena ini akan memiliki directivity Semakin spesifik arah distribusi sinyal oleh sebuah antena, maka directivity antenna tersebut.
+Antena dipol termasuk non-directive antenna. Dengan karakter seperti ini, antena dipol banyak dimanfaatkan untuk sistem komunikasi dengan wilayah cakupan yang luas. Pada astronomi radio, antena dipol digunakan pada teleskop radio untuk melakukan pengamatan pada rentang High Frekuensi (HF). Bentuk data yang dapat diperoleh adalah variabilitas intensitas sinyal yang dipancarkan oleh sebuah objek astronomi. Namun, karena antena dipol tidak memiliki directivity pada arah tertentu, teleskop radio elemen tunggal yang menggunakan antena jenis ini tidak dapat digunakan untuk melakukan pencitraan.
+2. Gain
+ Gain (directive gain) adalah karakter antena yang terkait dengan kemampuan antena mengarahkan radiasi sinyalnya, atau penerimaan sinyal dari arah tertentu. Gain bukanlah kuantitas yang dapat diukur dalam satuan fisis pada umumnya seperti watt, ohm, atau lainnya, melainkan suatu bentuk perbandingan. Oleh karena itu, satuan yang digunakan untuk gain adalah desibel.
+3. Polarisasi
+ Polarisasi didefinisikan sebagai arah rambat dari medan listrik. Antena dipol memiliki polarisasi linear vertikal . Mengenali polarisasi antena amat berguna dalam sistem komunikasi, khususnya untuk mendapatkan efisiensi maksimum pada transmisi sinyal. Pada astronomi radio, tujuan mengenali polarisasi sinyal yang dipancarkan oleh sebuah objek astronomi adalah untuk mempelajari medan magnetik dari objek tersebut.
+ Ada beberapa hal yang perlu diperhatikan dalam pola radiasi, yang pertama adalah Half-power Beamwidth (HPBW), atau yang biasa dikenal sebagai beanwidth suatu antena. Dalam astronomi radio, beamwidth adalah resolusi spasial dari sebuah teleskop radio, yaitu diameter sudut minimun dari dua buah titik yang mampu dipisahkan oleh teleskop radio tersebut. Secara teori, beamwidth untuk antena yang berbentuk parabola dapat ditentukan.
+
+### Jenis-jenis Antena
+1. Antena Omnidirectional
+2. Antena Grid
+3. Antena Sectoral
+4. Antena Yagi
+5. Antena Helical
+6. Antena Wajan Bolik
+7. Antena Multiband Vertical
 
 
-
+# TERIMA KASIH
