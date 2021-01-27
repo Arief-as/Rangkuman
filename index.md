@@ -163,4 +163,4 @@ Antena dipol termasuk non-directive antenna. Dengan karakter seperti ini, antena
 7. Antena Multiband Vertical
 
 
-# TERIMA KASIH
+# TERIMA KASIH........
