@@ -1,15 +1,8 @@
-## Welcome to GitHub Pages
+## RANGKUMAN Pertemuan 8 - 14
 
-You can use the [editor on GitHub](https://github.com/Arief-as/Rangkuman/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Jaringan Seluler
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
+**jaringan seluler** adalah jaringan komunikasi yang tautan terakhirnya adalah nirkabel. Jaringan didistribusikan di atas area daratan yang disebut " sel ", masing-masing dilayani oleh setidaknya satu transceiver lokasi tetap , tetapi lebih normal, tiga lokasi sel atau stasiun transceiver pangkalan 
 
 # Header 1
 ## Header 2
